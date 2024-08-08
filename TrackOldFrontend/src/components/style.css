@@ -1,0 +1,7 @@
+#area51::-webkit-scrollbar{
+    width: 5px;
+}
+#area51::-webkit-scrollbar-thumb{
+    background-color: #8C46FF;
+    border-radius: 10px;
+}

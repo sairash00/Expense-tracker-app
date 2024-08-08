@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #000;
+    overflow-x: hidden;
+}
+*{
+    color: #e4e3e3;
+    font-family: 'comfortaa', "Arial" ;
+}
+*::-webkit-scrollbar{
+    width: 3px;
+    background-color: transparent;
+}
+*::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: gray;
+}
