@@ -52,7 +52,6 @@ import comparePassword from '../utils/checkPassword.js'
          secure: true,
          expires: new Date(Date.now()+ 2 * 3600 * 1000 )
      }
-     console.log(user)
      return res
      .cookie("accessToken", generatedToken, options)
      .status(200)
@@ -141,7 +140,6 @@ import comparePassword from '../utils/checkPassword.js'
   try {
 
     const isTokenAvailable = req.user
-    console.log(isTokenAvailable)
 
     if(isTokenAvailable === null){
         return res.json({
