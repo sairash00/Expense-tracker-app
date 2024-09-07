@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://expense-tracker-app-backend-rose.vercel.app/',
+        target: 'https://expense-tracker-app-backend-rose.vercel.app',
         changeOrigin: true,
       },
     },
